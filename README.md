@@ -2,6 +2,21 @@
 
 Yuexuan An, Hui Xue, Xingyu Zhao, Jing Wang. From Instance to Metric Calibration: A Unified Framework for Open-world Few-shot Learning. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023.
 
+
+If you use the code in this repo for your work, please cite the following bib entries:
+
+```
+@article{DBLP:journals/pami/An2023IDEAL,
+  author    = {Yuexuan An and
+               Hui Xue and
+               Xingyu Zhao and
+               Jing Wang},
+  title     = {From Instance to Metric Calibration: A Unified Framework for Open-world Few-shot Learning},
+  journal   = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence},
+  year      = {2023}
+}
+```
+
 ## Requirements
 
 - Python >= 3.6
