@@ -1,7 +1,6 @@
 # Code for IDEAL
 
-Yuexuan An, Hui Xue, Xingyu Zhao, Jing Wang. From Instance to Metric Calibration: A Unified Framework for Open-world Few-shot Learning. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023.
-
+Code for "From Instance to Metric Calibration: A Unified Framework for Open-world Few-shot Learning" in IEEE Transactions on Pattern Analysis and Machine Intelligence.
 
 If you use the code in this repo for your work, please cite the following bib entries:
 
