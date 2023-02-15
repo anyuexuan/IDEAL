@@ -13,6 +13,10 @@ If you use the code in this repo for your work, please cite the following bib en
   title     = {From Instance to Metric Calibration: A Unified Framework for Open-World Few-Shot Learning},
   journal   = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence},
   year      = {2023}
+  volume    ={},
+  number    ={},
+  pages     ={1-17},
+  doi       ={10.1109/TPAMI.2023.3244023}
 }
 ```
 
