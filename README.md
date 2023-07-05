@@ -5,18 +5,15 @@ Code for "From Instance to Metric Calibration: A Unified Framework for Open-worl
 If you use the code in this repo for your work, please cite the following bib entries:
 
 ```
-@article{DBLP:journals/pami/An2023IDEAL,
-  author    = {Yuexuan An and
-               Hui Xue and
-               Xingyu Zhao and
-               Jing Wang},
-  title     = {From Instance to Metric Calibration: A Unified Framework for Open-World Few-Shot Learning},
-  journal   = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence},
-  year      = {2023}
-  volume    ={},
-  number    ={},
-  pages     ={1-17},
-  doi       ={10.1109/TPAMI.2023.3244023}
+@ARTICLE{10041935,
+  author={An, Yuexuan and Xue, Hui and Zhao, Xingyu and Wang, Jing},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={From Instance to Metric Calibration: A Unified Framework for Open-World Few-Shot Learning}, 
+  year={2023},
+  volume={45},
+  number={8},
+  pages={9757-9773},
+  doi={10.1109/TPAMI.2023.3244023}
 }
 ```
 
