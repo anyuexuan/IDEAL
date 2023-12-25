@@ -100,8 +100,8 @@ if __name__ == '__main__':
         pre_epoch = get_stop_epoch(algorithm=pre_algorithm, dataset=dataset, n_shot=n_shot)
         ssl_epoch = get_stop_epoch(algorithm=ssl_algorithm, dataset=dataset, n_shot=n_shot)
     else:
-        pre_epoch = get_stop_epoch(algorithm=pre_algorithm, dataset=dataset, n_shot=n_shot)
-        ssl_epoch = get_stop_epoch(algorithm=ssl_algorithm, dataset=dataset, n_shot=n_shot)
+        pre_epoch = stop_epoch
+        ssl_epoch = stop_epoch
 
     pre_dir = base_path + f'/save/checkpoints/{dataset}/{model_name}_{pre_algorithm}'
     ssl_dir = base_path + f'/save/checkpoints/{dataset}/{model_name}_{pre_algorithm}_{ssl_algorithm}'
