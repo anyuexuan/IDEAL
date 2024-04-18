@@ -66,7 +66,8 @@ class IDEAL(NoiseMetaTemplate):
         # Inter-class Calibration
         with torch.no_grad():
             xx = x[:, :self.n_support].reshape(self.n_way * self.n_support, *x.size()[2:])
-            z_support = self.ssl_feature_extractor.forward(xx).reshape(self.n_way, self.n_support, -1)
+            z_support = self.feature_extractor.forward(xx).reshape(self.n_way, self.n_support, -1)
+            # z_support = self.ssl_feature_extractor.forward(xx).reshape(self.n_way, self.n_support, -1)
             z_proto = z_support.mean(1)  # [N,d]
             z_support = z_support.reshape(-1, z_support.shape[-1])
             cluster = KMeans(self.n_way, init=z_proto.detach().cpu().numpy(), n_init=1)
